@@ -1,0 +1,16 @@
+
+/* Project Fonts Style below*/
+
+.raleway-Bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: bold;
+}
+
+.raleway-light {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: light;
+}
