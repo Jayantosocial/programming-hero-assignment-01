@@ -42,6 +42,7 @@
   margin-bottom: 30px;
 }
 
+
 /* Project Heading Styles below*/
 
 h1 {
@@ -196,6 +197,8 @@ header div {
   margin-bottom: 40px;
 }
 
+/* ready section in below */
+
 .h2-ready {
   font-size: 50px;
   font-weight: bold;
@@ -212,4 +215,57 @@ header div {
 
 .ready-div{
   padding: 70px 150px;
+}
+
+.img-ready{
+  border-radius: 48px;
+}
+
+/* Lets get in touch section */
+
+.lets-get-main{
+  max-width: 1140px;
+  margin: 92px auto 0 auto;
+  padding: 71px 0;
+}
+
+.lets-get{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.letsh2{
+  font-size: 97px;
+}
+
+input{
+  height: 30px;
+  width: 497px;
+  display: block;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  padding: 10px;
+  width: 497px;
+  background-color: #FFFFFF;
+  border: none;
+  margin-top: 10px;
+}
+
+input[type=submit] {
+  background-color: blue;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+label{
+  font-size: 18px;
+  font-weight: 600;
 }
