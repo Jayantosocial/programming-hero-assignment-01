@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
 /* Project Fonts Style below*/
 
@@ -29,6 +33,10 @@
   border-radius: 10px;
 }
 
+.btn-margin{
+  margin-top: 30px;
+}
+
 /* Project Heading Styles below*/
 
 h1 {
@@ -36,7 +44,6 @@ h1 {
   font-weight: bold;
   color: #252432;
   text-align: center;
-  margin: 0px;
 }
 
 h2 {
@@ -88,6 +95,52 @@ header div {
   gap: 30px;
 }
 
-.banner{
-  margin-top: 30px;
+/* See it in action section */
+
+.see {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 166px auto;
+}
+
+.see1{
+  width: 40%;
+}
+
+.see2{
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
+
+/* Joined section */
+
+.joined{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.joined-div {
+    text-align: center;
+  background-color: rgba(78, 71, 255, 0.10);
+  border-radius: 24px;
+  padding: 50px 80px;
+}
+
+.joined-div1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.items-title{
+  font-size: 80px;
+  font-weight: bold;
+  color: blue;
+}
+
+.items-description{
+  font-size: 20px;
+  font-weight: normal;
 }
