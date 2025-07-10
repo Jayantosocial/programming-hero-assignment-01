@@ -37,6 +37,11 @@
   margin-top: 30px;
 }
 
+.btn2-margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* Project Heading Styles below*/
 
 h1 {
@@ -62,6 +67,7 @@ h4 {
   font-size: 24px;
   font-weight: bold;
   color: black;
+  padding-top: 24px;
 }
 
 /* body style below */
@@ -122,7 +128,7 @@ header div {
   margin: 0 auto;
 }
 .joined-div {
-    text-align: center;
+  text-align: center;
   background-color: rgba(78, 71, 255, 0.10);
   border-radius: 24px;
   padding: 50px 80px;
@@ -143,4 +149,67 @@ header div {
 .items-description{
   font-size: 20px;
   font-weight: normal;
+}
+
+/* Review section */
+
+.review-section{
+  max-width: 1140px;
+  margin: 137px auto;
+}
+
+.star {
+  display: flex;
+  gap: 5px;
+  color: yellow;
+}
+
+.review-text{
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.review-profile{
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  color: gray;
+  padding-top: 24px;
+}
+
+.cards{
+  display: flex;
+  gap: 20px;
+}
+
+.card{
+  width: 366px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(242, 237, 237, 1);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.h2-review{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.h2-ready {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ready{
+  background-color: #FFFFFF;
+  max-width: 1140px;
+  margin: 137px auto;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.ready-div{
+  padding: 70px 150px;
 }
